@@ -16,6 +16,7 @@ namespace AdventureWorks
             using (var context = new AdventureWorks())
             {
                 // Using Linq
+                
                 var firstCategory = context.ProductCategories.GroupBy
                     (p => p.ProductCategoryID)
                     .Select(category => new
