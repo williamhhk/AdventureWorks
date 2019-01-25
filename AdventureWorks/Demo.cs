@@ -8,6 +8,7 @@ namespace AdventureWorks
 {
     class Demo
     {
+        public int Amount { get; set; }
         public int Mutliplier { get; set; }
     }
 }
